@@ -9,3 +9,6 @@ def index(request):
 
 def about(request):
     return HttpResponse("This is about page")
+
+def abiaka(request):
+    return HttpResponse("This is abiaka page")
